@@ -8,27 +8,27 @@ Your privacy is my top priority. This Privacy Policy explains exactly how your i
 ## My Core Principle: Your Data Stays on Your Device
 NotePix Calendar is designed to be a private space for your thoughts, memories, and photos. I operate under a strict principle: your personal data and content never leave your device.
 
--No Personal Information Collected by Me: I don't collect any personally identifiable information (PII) from you. 
+1. No Personal Information Collected by Me: I don't collect any personally identifiable information (PII) from you. 
 This includes your name, email address, phone number, location, unique device identifiers, or any demographic information. You're completely anonymous to me.
--All Your Content is Stored Locally: Any notes, text, images, or mood selections you create or add within NotePix Calendar are stored exclusively on your device's local storage (using AsyncStorage). This means your private content never resides on my servers or any third-party servers I control.
--No Third-Party Tracking or Ads: NotePix Calendar doesn't contain any advertising libraries or third-party tracking code (like Google Analytics, Firebase Analytics, or other similar SDKs). I don't collect usage data, track your activity within the app, or display any advertisements.
+2. All Your Content is Stored Locally: Any notes, text, images, or mood selections you create or add within NotePix Calendar are stored exclusively on your device's local storage (using AsyncStorage). This means your private content never resides on my servers or any third-party servers I control.
+3. No Third-Party Tracking or Ads: NotePix Calendar doesn't contain any advertising libraries or third-party tracking code (like Google Analytics, Firebase Analytics, or other similar SDKs). I don't collect usage data, track your activity within the app, or display any advertisements.
 
 ## How NotePix Calendar Uses Your Information (Locally, and for AI)
 Since all your data is stored on your device, its primary use is to enable the app's core functionality for you:
 
--App Functionality & Personalization: Your notes, text entries, attached images, and mood selections you create or add within NotePix Calendar are stored exclusively on your device's local storage. This data allows the calendar to mark days with content and provides a personalized journal experience.
--AI Insight Feature: NotePix Calendar includes an optional AI insight feature to offer concise summaries or reflective prompts based on your daily notes. Here's how it respects your privacy:
-    -When you view your daily notes (and when the notes update), the text of these notes is sent directly from your device to Google's Gemini API for the sole purpose of generating an insight.
-    -This communication happens directly between your device and Google's API; it doesn't pass through or get stored on my (NotePix Calendar developer's) servers.
-    -Since I don't collect any personal information about you, the text sent to the Gemini API is unlinked from your personal identity. Google's own privacy policies and terms of service apply to their use of data through their APIs.
+1. App Functionality & Personalization: Your notes, text entries, attached images, and mood selections you create or add within NotePix Calendar are stored exclusively on your device's local storage. This data allows the calendar to mark days with content and provides a personalized journal experience.
+2. AI Insight Feature: NotePix Calendar includes an optional AI insight feature to offer concise summaries or reflective prompts based on your daily notes. Here's how it respects your privacy:
+-When you view your daily notes (and when the notes update), the text of these notes is sent directly from your device to Google's Gemini API for the sole purpose of generating an insight.
+-This communication happens directly between your device and Google's API; it doesn't pass through or get stored on my (NotePix Calendar developer's) servers.
+-Since I don't collect any personal information about you, the text sent to the Gemini API is unlinked from your personal identity. Google's own privacy policies and terms of service apply to their use of data through their APIs.
 
 ## Permissions NotePix Calendar May Ask For
 NotePix Calendar is designed to request only the permissions absolutely necessary for features you choose to use.
 
--Camera and Photo Library Access: NotePix Calendar will ask for permission to access your device's camera and/or photo library only if you choose to attach an image to your daily entry.
-    -This access is solely for you to capture a new photo or select an existing image from your device's library.
-    -The images you select or capture are then stored locally on your device within the app's data.
-    -I don't access, collect, or transmit these images to my servers or any third parties.
+1.Camera and Photo Library Access: NotePix Calendar will ask for permission to access your device's camera and/or photo library only if you choose to attach an image to your daily entry.
+-This access is solely for you to capture a new photo or select an existing image from your device's library.
+-The images you select or capture are then stored locally on your device within the app's data.
+-I don't access, collect, or transmit these images to my servers or any third parties.
 
 ## Android's System Backup (Important Note)
 You should be aware that your Android device might have a "Backup & Restore" or "Backup & Sync" feature enabled in your phone's system settings (often found under Settings / System / Backup / Back up my data). If this feature is active, Android (as part of your operating system, not NotePix Calendar) may periodically save a copy of your device's data, including app data (like your NotePix Calendar notes and images), to your Google Drive for recovery purposes. This allows you to restore your data if you get a new device or your current one is damaged.
